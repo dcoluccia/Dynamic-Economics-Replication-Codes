@@ -24,6 +24,9 @@ The file `main.py` performs estimation. The code supports with minor changes est
   - In `estimation.py`:
     1. In line 64, set `self.brute_run_estimation(double = True)` ;
     2. Uncomment line 164 and comment line 165.
-   
+* To replicate figure 1 in the .pdf file:
+  - In `VFI.py`, uncomment lines 207-213;
+  - Run `VFI.py`. You can possibly change the dimension of the grid over which assets are discretized, in line 62. Notice, however, that the finer the grid, the more time it takes to compile.
+  
 Expected runtime for single-parameter estimation is around 5'. Double-parameter estimation takes about 1h.
     
