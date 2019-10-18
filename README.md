@@ -17,12 +17,12 @@ The file `main.py` performs estimation. The code supports with minor changes est
 * To estimate α **alone**:
   - In `main.py`, in the `PLOT RESULTS` section (*i.e.* lines 26-70) comment lines 29-50 and uncomment lines 52-69;
   - In `estimation.py`:
-    1. In line 64, set `self.brute_run_estimation(double = False)` ;
+    1. In line 65, set `self.brute_run_estimation(double = False)` ;
     2. Comment line 164 and uncomment line 165.
 * To estimate α and σ **jointly**:
   - In `main.py`, in the `PLOT RESULTS` section (*i.e.* lines 26-70) uncomment lines 29-50 and comment lines 52-69;
   - In `estimation.py`:
-    1. In line 64, set `self.brute_run_estimation(double = True)` ;
+    1. In line 65, set `self.brute_run_estimation(double = True)` ;
     2. Uncomment line 164 and comment line 165.
 * To replicate figure 1 in the .pdf file:
   - In `VFI.py`, uncomment lines 207-213;
